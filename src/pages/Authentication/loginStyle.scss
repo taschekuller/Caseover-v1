@@ -1,0 +1,471 @@
+html {
+    overflow-x: hidden;
+    //margin-right: calc(-1 * (100vw - 100%));
+  }
+
+.logoPosition{
+position: absolute;
+width: 193px;
+height: 45px;
+
+@media (min-width: 1024px) {
+    margin-left: 60px !important;
+  }
+  @media (min-width: 1600px) {
+    margin-left: 100px !important;
+  }
+  @media (max-width: 768px) {
+     display: none !important;
+   }
+}  
+.loginButtonPosition{
+   
+   
+    height: 36px;
+    background: linear-gradient(rgb(21, 40, 93) 0%, rgb(4, 137, 179) 146.84%);
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;  
+    @media (min-width: 1024px) { 
+        margin-right: 10px !important;
+        width: 85px;
+      }
+      @media (min-width: 1600px) {
+        margin-right: 25px !important;
+        width: 136px;
+      }
+}
+.loginButtonPosition:hover{
+  background: white;
+  color: #15285d ;
+  border-color:  #15285d ;
+  font-weight: 600;
+}
+.registerButtonPosition{
+    margin-right: 100px;
+    width: 136px;
+    height: 36px;
+    background: #15265B;
+    border-radius: 15px;
+    border-color: #15265B;
+}
+.headerPosition{
+margin-top: 20px !important;
+}
+.loginTextStyle{
+    width: 59px;
+    height: 33px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;  
+}
+.loginModalStyle{
+    width: 412px;
+    height: 418px;
+    background: #FFFFFF;
+    box-shadow: inset 7px 7px 20px rgb(142 142 142 / 25%);
+    border-radius: 0px !important;
+    background-color: red !important;
+}
+.loginButtonStyle{
+color:"black";
+padding: 10px;
+width: 124px;
+height: 47px;
+background: #74E072 ;
+border-color: #74E072 ;
+border-radius: 29px ;
+}
+.changePasswordButtonStyle{
+    color:"black";
+    padding: 10px;
+    width: 184px;
+    height: 47px;
+    background: #74E072 ;
+    border-color: #74E072 ;
+    border-radius: 29px ;
+    }
+.loginButtonStyle:hover{
+background-color: white;
+color:#06fd02;
+}
+.registerButtonStyle{
+    color:"black";
+    padding: 10px;
+    width: 174px;
+    height: 47px;
+    background: #74E072 ;
+    border-color: #74E072 ;
+    border-radius: 29px ;
+    }
+    .registerButtonStyle:hover{
+    background-color: white;
+    color:#06fd02;
+    }
+.borderRadius >div{
+    border-radius: 66px!important;
+}
+.registerTypeStyle{
+    height: 46px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor:pointer;
+    
+}
+input{
+    border-radius: 19px !important;
+}
+// a{
+//     background-color: #f8f8fb !important;
+// }
+.bigEllipse{
+width: 525px;
+height: 476px;
+
+background: linear-gradient(233.77deg, #15265B 30.96%, #009FC6 86.76%);
+box-shadow: -17px 20px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60% 40% 40% 60%/50%;
+
+@media (min-width: 280px) {
+    width: 335px !important;
+    height: 286px !important;
+   margin: auto;
+  }
+  @media (min-width: 480px) {
+    width: 385px !important;
+    height: 336px !important;
+    margin: auto;
+  }
+@media (min-width: 791px) {
+    width: 425px !important;
+    height: 376px !important;
+    margin: inherit;
+  }
+@media (min-width: 1024px) {
+    width: 525px !important;
+    height: 476px !important;
+    margin: inherit;
+  }
+  @media (min-width: 1600px) {
+    width: 605px !important;
+    height: 540px !important;
+    margin: inherit;
+  }
+}
+.bigEllipse2{
+    width: 525px;
+    height: 476px;
+    left: calc(50% - 525px/2 + 257.5px);
+    top: calc(50% - 476px/2 - 1352px);
+    background: linear-gradient(233.77deg, #15265B 30.96%, #009FC6 86.76%);
+    box-shadow: -17px 20px 4px rgba(0, 0, 0, 0.25);
+    //border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  
+
+
+	// -webkit-border-radius: 40% 60% 60% 40%/50%;
+	// -moz-border-radius: 40% 60% 60% 40%/50%;
+	
+  border-radius: 40% 60% 60% 40%/50%;
+
+	// -webkit-box-shadow: 0px 0px 20px #4b8df9, 0px 0px 20px #4b8df9;
+	// -moz-box-shadow: 0px 0px 20px #4b8df9, 0px 0px 20px #4b8df9;
+	// box-shadow: 0px 0px 20px #4b8df9, 0px 0px 20px #4b8df9;
+    @media (min-width: 280px) {
+        width: 325px !important;
+        height: 276px !important;
+      }
+    @media (min-width: 491px) {
+        width: 425px !important;
+        height: 376px !important;
+      }
+    @media (min-width: 1024px) {
+        width: 525px !important;
+        height: 476px !important;
+      }
+      @media (min-width: 1600px) {
+        width: 525px !important;
+        height: 476px !important;
+      }
+    }
+.smallEllipse{
+width: 277px;
+height: 259px;
+background: linear-gradient(234.85deg, #15265B 46.43%, #009FC6 83.15%);
+box-shadow: -17px 20px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+margin: auto;
+}
+.corporateDiv{
+position: relative;
+top:120px;
+background: linear-gradient(178.61deg, #15265B 18.22%, #00A0C6 112.84%);
+width: 100vw;
+left: 50%;
+right: 50%;
+margin-left: -50.5vw;
+margin-right: -50vw;
+}
+.ellipseText{
+    position: relative;
+    top:35px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #15265B;  
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+.footerText{
+    color:white;
+    cursor: pointer;
+}
+.aboutUsFooter{
+    background-color: transparent !important;
+    color:white !important;
+    font-size: 18px;
+} 
+
+#navColor>a{
+    color:#15265B;
+    background-color: transparent;
+}
+.loginPhotoPos{
+    @media (min-width: 280px) {
+        height: 255px;
+       
+      }
+    @media (min-width: 791px) {
+        height: 295px;
+        
+      }
+    @media (min-width: 1024px) {
+        height: 395px;
+        
+      }
+      @media (min-width: 1600px) {
+        height: 485px;
+        
+      } 
+}
+.loginPhotoPos2{
+    @media (min-width: 280px) {
+        height: 255px;
+        position: relative;
+        left: 45px;
+       
+      }
+    @media (min-width: 420px) {
+        height: 295px;
+        position: relative;
+        left: 85px;
+       
+      }
+    @media (min-width: 540px) {
+        height: 345px;
+        position: relative;
+        left: 145px;
+       
+      }
+    @media (min-width: 791px) {
+        height: 355px;
+        position: relative;
+        left: 45px;
+        
+      }
+    @media (min-width: 1024px) {
+        height: 395px;
+        position: relative;
+        left: 45px;
+        
+      }
+      @media (min-width: 1600px) {
+        height: 455px;
+        position: relative;
+        left: 45px;
+        
+      } 
+}
+.loginRow1Text{
+    color:white;
+    position: relative;
+    @media (min-width: 280px) {
+        font-size:20px;
+        bottom: 25px;
+      }
+    @media (min-width: 794px) {
+        font-size:28px;
+        top: 15px;
+      }
+      @media (min-width: 1604px) {
+        font-size:33px;
+        top: 45px;
+      }
+ 
+}
+.loginRow1TextPos{
+  position: relative;
+  @media (min-width: 280px) {
+    top: 105px;
+  }
+  @media (min-width: 790px) {
+    top: 95px;
+  }
+@media (min-width: 1024px) {
+    top:135px;
+  }
+}
+.loginRow2iconPos{
+    position: absolute;
+    font-size: 55px;
+    color: white; 
+    @media (min-width: 280px) {
+        top:32%;
+        left: 46%;
+      }
+    @media (min-width: 480px) {
+        top:27%;
+        left: 46%;
+      }
+      @media (min-width: 767px) {
+        top:26%;
+        left: 42%;
+      }
+    @media (min-width: 1024px) {
+        top:40%;
+        left: 40%;
+      }
+}
+.loginRow3Text{
+    color:white;
+    @media (min-width: 280px) {
+        font-size:14px;
+        word-spacing: 15px;
+      }
+    @media (min-width: 492px) {
+        font-size:18px;
+        word-spacing: 25px;
+      }
+    @media (min-width: 1024px) {
+        font-size:20px;
+        word-spacing: 30px;
+      }
+ 
+}
+.loginRow3TextPos{
+    position: relative;
+  
+    
+    @media (min-width: 280px) {
+        top:100px;
+      }
+    @media (min-width: 480px) {
+        top:130px;
+      }
+      @media (min-width: 767px) {
+        top:130px;
+      }
+    @media (min-width: 1024px) {
+        top:170px;
+      }
+}
+.btn-hover {
+ 
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+ 
+  height: 45px;
+ 
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  @media (min-width: 250px) { 
+    margin-right: 10px !important;
+    width: 70px;
+  }
+  @media (min-width: 768px) { 
+    margin-right: 20px !important;
+    width: 130px;
+  }
+  @media (min-width: 1024px) { 
+    margin-right: 10px !important;
+    width: 150px;
+  }
+  @media (min-width: 1600px) {
+    margin-right: 25px !important;
+    width: 150px;
+  }
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-1 {
+  background-image: linear-gradient(to right, #15265B, #009FC6, #15265B, #009FC6);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.btn-hover.color-2 {
+  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
+.firstRowPosition{
+  position: relative;
+  @media (min-width: 250px) { 
+    top:5px
+  }
+  @media (min-width: 768px) { 
+   top:120px
+  }
+ 
+}
+.firstDivPosition{
+  background-color: rgb(229 244 255);
+ 
+
+  @media (min-width: 250px) { 
+    height: 128vh;
+  }
+  @media (min-width: 768px) { 
+    height: 92vh;
+  }
+ 
+}

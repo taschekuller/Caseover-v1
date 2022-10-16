@@ -1,0 +1,38 @@
+.footerIcon{
+    @media screen {min-width: 768;
+        text-align: end;
+    }
+    // @media screen {max-width: 768;
+    //     text-align: center;
+    // }
+}
+
+.footerInstagram {
+    background: -webkit-linear-gradient(#15265B, #0196BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footerLinkedin {
+    background: -webkit-linear-gradient(#15265B, #0196BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a{
+    display: inline-block;
+    color: #000;
+}
+
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
