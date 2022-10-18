@@ -44,6 +44,7 @@ const departments = props => {
   const [dynamic_title, setdynamic_title] = useState("");
   const [dynamic_description, setdynamic_description] = useState("");
   const [selectedId, setSelectedId] = useState();
+
   const handleUpdateSubmit = (e, values) => {
     
     if (isEdit) {
@@ -314,6 +315,7 @@ const departments = props => {
                     type="submit"
                     className="btn btn-success me-2"
                     onClick={() => {
+                      setIsEdit(true);
                       toggle()
                     }}
                   >

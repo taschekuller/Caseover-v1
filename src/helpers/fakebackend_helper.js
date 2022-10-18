@@ -105,8 +105,11 @@ export const getUsers = () => get(url.GET_USERS)
 // add user
 export const addNewUser = user => post(url.ADD_NEW_USER, user)
 
+
 // update user
-export const updateUser = user => put(url.UPDATE_USER, user)
+// export const updateUser = user => put(url.UPDATE_USER, user)
+//single update
+export const updateUser = (planInput) => put(url.GET_USER + "/" + planInput?._id, planInput);
 
 // delete user
 export const deleteUser = user => del(url.DELETE_USER, { headers: { user } })
@@ -142,6 +145,9 @@ export const updateUserCompany = (user) => put(url.GET_USER + "/addCompany/" + u
 export const getUser = () => get(url.GET_USER);
 export const delUser = (id) => del(url.GET_USER + "/" + id); 
 export const addUser = (user) => post(url.GET_USER, user);
+
+
+
 export const updateUsers = (user) => put(url.GET_USER + "/" + user?._id, user);
 export const getCompanyByEmail = (email)=> get(url.GET_USER + "/getCompanyByEmail/" + email);
 export const changePassword = (obj) => post(url.GET_USER + "/changePassword", obj); 

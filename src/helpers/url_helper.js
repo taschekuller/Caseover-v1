@@ -58,7 +58,9 @@ export const CONFIRM_PASSWORD = "/auth/confirmPassword"
 export const GET_USERS = "api/users"
 export const GET_USER_PROFILE = "/user"
 export const ADD_NEW_USER = "/add/user"
-export const UPDATE_USER = "/update/user"
+
+// /user** deleted
+export const UPDATE_USER = "api/users/update"
 export const DELETE_USER = "/del/user"
 
 
